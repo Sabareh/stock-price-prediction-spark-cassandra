@@ -2,7 +2,7 @@ from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
 
 # Define the Cassandra keyspace and table
-KEYSPACE = "mykeyspace"
+KEYSPACE = "yourkeyspace"
 TABLE = "stock_data"
 
 # Set up the Cassandra connection

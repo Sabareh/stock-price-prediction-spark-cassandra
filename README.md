@@ -21,17 +21,18 @@ This project aims to predict stock prices using machine learning techniques, Apa
 ## Installation
 To install and run this project, follow these steps:
 
-Clone the repository to your local machine.
-Install Apache Cassandra and Spark on your local machine or cluster.
-Install the required Python libraries by running pip install -r requirements.txt.
-Set up the Alpha Vantage API and obtain an API key.
-Configure the Cassandra keyspace and table by running python cassandra_config.py.
-Collect stock data by running python data_collection.py.
-Preprocess the data by running python data_preprocessing.py.
-Engineer features by running python feature_engineering.py.
-Train and evaluate the machine learning model by running python model_building.py.
-Perform data analysis and predictions by running python spark_integration.py.
-Usage
+- Clone the repository to your local machine.
+- Install Apache Cassandra and Spark on your local machine or cluster.
+- Install the required Python libraries by running pip install -r requirements.txt.
+- Set up the Alpha Vantage API and obtain an API key.
+- Configure the Cassandra keyspace and table by running python cassandra_config.py.
+- Collect stock data by running python data_collection.py.
+- Preprocess the data by running python data_preprocessing.py.
+- Engineer features by running python feature_engineering.py.
+- Train and evaluate the machine learning model by running python model_building.py.
+- Perform data analysis and predictions by running python spark_integration.py.
+
+## Usage
 The project can be used to predict stock prices by running the scripts provided in the repository. The data can be customized by modifying the parameters in the scripts or by using a different data source. The machine learning model can be modified by changing the algorithm or the hyperparameters.
 
 ## Data Sources

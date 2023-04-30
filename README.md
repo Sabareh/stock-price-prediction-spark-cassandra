@@ -3,12 +3,12 @@
 This project aims to predict stock prices using machine learning techniques, Apache Spark, and Apache Cassandra. The goal is to build a data pipeline that collects stock data, preprocesses it, engineers features, and trains a machine learning model to predict future prices.
 
 ## Features
-Collect stock data from multiple sources using the Alpha Vantage API.
-Store stock data in Apache Cassandra for efficient and scalable data management.
-Preprocess data by cleaning, handling missing values, and normalizing data.
-Engineer features by calculating technical indicators, adding sentiment analysis, and including macroeconomic indicators.
-Train and evaluate machine learning models using Apache Spark.
-Perform data analysis and predictions using Spark and Cassandra.
+- Collect stock data from multiple sources using the Alpha Vantage API.
+- Store stock data in Apache Cassandra for efficient and scalable data management.
+- Preprocess data by cleaning, handling missing values, and normalizing data.
+- Engineer features by calculating technical indicators, adding sentiment analysis, and including macroeconomic indicators.
+- Train and evaluate machine learning models using Apache Spark.
+- Perform data analysis and predictions using Spark and Cassandra.
 
 ## Technologies Used
 + Apache Spark

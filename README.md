@@ -11,12 +11,12 @@ Train and evaluate machine learning models using Apache Spark.
 Perform data analysis and predictions using Spark and Cassandra.
 
 ## Technologies Used
-Apache Spark
-Apache Cassandra
-Alpha Vantage API
-Python
-Scikit-learn
-Pandas
++ Apache Spark
++ Apache Cassandra
++ Alpha Vantage API
++ Python
++ Scikit-learn
++ Pandas
 
 ## Installation
 To install and run this project, follow these steps:

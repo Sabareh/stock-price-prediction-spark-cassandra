@@ -5,6 +5,8 @@ from cassandra.auth import PlainTextAuthProvider
 KEYSPACE = "yourkeyspace"
 TABLE = "stock_data"
 
+
+
 # Set up the Cassandra connection
 auth_provider = PlainTextAuthProvider(username="username", password="password")
 cluster = Cluster(["localhost"], auth_provider=auth_provider)
